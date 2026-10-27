@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My Flashcards</h1>
+
+    <div class="card">
+        <p id="cardText"></p>
+    </div>
+    <p id="counter"></p>
+
+    <div class="controls">
+        <button class="primary" onclick="flip()">Show Answer</button>
+        <button onclick="next()">Next</button>
+        <button onclick="prev()">Previous</button>
+        <button onclick="editcard()">Edit</button>
+        <button onclick="deletecard()">Delete</button>
+    </div>
+
+    <div class="card-form">
+        <h2>Add or edit a card</h2>
+
+        <label for="questionInput">Question:</label>
+        <input type="text" id="questionInput" placeholder="Enter question">
+
+        <label for="answerInput">Answer:</label>
+        <input type="text" id="answerInput" placeholder="Enter answer">
+
+        <button class="primary" id="savebtn" onclick="addcard()">Add card</button>
+        <button id="cancelbtn" onclick="canceledit()" hidden>Cancel</button>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
