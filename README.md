@@ -36,4 +36,4 @@ A simple flashcard app for studying, built as part of the CodeAlpha App Developm
 
 ## Author
 
-Your Name
+Sheetal Kumari
