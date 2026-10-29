@@ -19,7 +19,8 @@ A simple flashcard app for studying, built as part of the CodeAlpha App Developm
 ## How to Run
 
 1. Download or clone this repository.
-2. Open `index.html` in your browser.
+2. Open `index.html` in your browser.CodeAlpha_Fl
+3. https://floralsk7-blip.github.io/CodeAlpha_Flashcardquiz/
 
 ## Project Structure
 
